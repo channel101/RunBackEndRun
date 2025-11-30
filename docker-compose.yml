@@ -17,6 +17,7 @@ services:
       - SPRING_DATASOURCE_USERNAME=postgres
       - SPRING_DATASOURCE_PASSWORD=RunBackEndRun_User
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - SPRING_DATASOURCE_PASSWORD=RunBackEndRun_User
 
   db:
     image: 'postgres:latest'
